@@ -1,0 +1,19 @@
+# 업로드·변환 결과 (서버를 켤 때마다 지워짐)
+.work/
+
+# 내 자료는 저장소에 넣지 않음 (samples/의 직접 만든 샘플만 포함)
+*.pdf
+*.pptx
+*.md
+!samples/sample.pdf
+!samples/sample.pptx
+!samples/sample.md
+!README.md
+*_images/
+*.zip
+
+# 개발 환경
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/

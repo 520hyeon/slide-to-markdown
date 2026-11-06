@@ -1,0 +1,14 @@
+# 웹 서버 (127.0.0.1 전용)
+fastapi>=0.115
+uvicorn>=0.30
+python-multipart>=0.0.9
+
+# PDF·PPTX 읽기
+pymupdf>=1.24
+python-pptx>=1.0
+pillow>=10.0
+
+# 그림 속 글자 OCR (무료·로컬 CPU). 없어도 앱은 동작하고, 그때는 텍스트만 추출한다.
+# 인식 모델은 처음 OCR할 때 한 번 내려받아 .venv 안에 저장된다 (그 뒤로는 인터넷 불필요).
+rapidocr>=3.4
+onnxruntime>=1.18
